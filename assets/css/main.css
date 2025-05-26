@@ -1114,9 +1114,10 @@ section,
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
-  max-width: 100%;
-  transition: 0.3s;
+ width: 159px;
+  height: 91.5px;
+  object-fit: contain;
+  padding: 10px;
   opacity: 0.5;
   filter: grayscale(100);
 }
@@ -1128,6 +1129,8 @@ section,
 
 @media (max-width: 640px) {
   .clients .client-logo img {
+    width: 120px;
+    height: 69px;
     padding: 20px;
   }
 }
